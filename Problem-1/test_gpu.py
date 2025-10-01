@@ -13,4 +13,4 @@ if gpus:
         # Memory growth must be set before GPUs have been initialized
         print(e)
 else:
-    print("❌ No GPU found. TensorFlow will run on CPU.")
+    print("❌ No GPU found. TensorFlow will run on CPU")
